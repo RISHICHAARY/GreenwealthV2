@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE020D82B4E4CF7005937FD /* GreenwealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE020D72B4E4CF7005937FD /* GreenwealthApp.swift */; };
+		7FE020DA2B4E4CF7005937FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE020D92B4E4CF7005937FD /* ContentView.swift */; };
+		7FE020DC2B4E4CF7005937FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE020DB2B4E4CF7005937FD /* Assets.xcassets */; };
+		7FE020DF2B4E4CF7005937FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE020DE2B4E4CF7005937FD /* Preview Assets.xcassets */; };
+		7FE020E92B4E4CF8005937FD /* GreenwealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE020E82B4E4CF8005937FD /* GreenwealthTests.swift */; };
+		7FE020F32B4E4CF8005937FD /* GreenwealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE020F22B4E4CF8005937FD /* GreenwealthUITests.swift */; };
+		7FE020F52B4E4CF8005937FD /* GreenwealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE020F42B4E4CF8005937FD /* GreenwealthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE020E52B4E4CF8005937FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE020CC2B4E4CF7005937FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE020D32B4E4CF7005937FD;
+			remoteInfo = Greenwealth;
+		};
+		7FE020EF2B4E4CF8005937FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE020CC2B4E4CF7005937FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE020D32B4E4CF7005937FD;
+			remoteInfo = Greenwealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FE020D42B4E4CF7005937FD /* Greenwealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greenwealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE020D72B4E4CF7005937FD /* GreenwealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthApp.swift; sourceTree = "<group>"; };
+		7FE020D92B4E4CF7005937FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FE020DB2B4E4CF7005937FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FE020DE2B4E4CF7005937FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FE020E42B4E4CF8005937FD /* GreenwealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenwealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE020E82B4E4CF8005937FD /* GreenwealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthTests.swift; sourceTree = "<group>"; };
+		7FE020EE2B4E4CF8005937FD /* GreenwealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenwealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE020F22B4E4CF8005937FD /* GreenwealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthUITests.swift; sourceTree = "<group>"; };
+		7FE020F42B4E4CF8005937FD /* GreenwealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenwealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE020D12B4E4CF7005937FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020E12B4E4CF8005937FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020EB2B4E4CF8005937FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE020CB2B4E4CF7005937FD = {
+			isa = PBXGroup;
+			children = (
+				7FE020D62B4E4CF7005937FD /* Greenwealth */,
+				7FE020E72B4E4CF8005937FD /* GreenwealthTests */,
+				7FE020F12B4E4CF8005937FD /* GreenwealthUITests */,
+				7FE020D52B4E4CF7005937FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE020D52B4E4CF7005937FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE020D42B4E4CF7005937FD /* Greenwealth.app */,
+				7FE020E42B4E4CF8005937FD /* GreenwealthTests.xctest */,
+				7FE020EE2B4E4CF8005937FD /* GreenwealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE020D62B4E4CF7005937FD /* Greenwealth */ = {
+			isa = PBXGroup;
+			children = (
+				7FE020D72B4E4CF7005937FD /* GreenwealthApp.swift */,
+				7FE020D92B4E4CF7005937FD /* ContentView.swift */,
+				7FE020DB2B4E4CF7005937FD /* Assets.xcassets */,
+				7FE020DD2B4E4CF7005937FD /* Preview Content */,
+			);
+			path = Greenwealth;
+			sourceTree = "<group>";
+		};
+		7FE020DD2B4E4CF7005937FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FE020DE2B4E4CF7005937FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FE020E72B4E4CF8005937FD /* GreenwealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE020E82B4E4CF8005937FD /* GreenwealthTests.swift */,
+			);
+			path = GreenwealthTests;
+			sourceTree = "<group>";
+		};
+		7FE020F12B4E4CF8005937FD /* GreenwealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE020F22B4E4CF8005937FD /* GreenwealthUITests.swift */,
+				7FE020F42B4E4CF8005937FD /* GreenwealthUITestsLaunchTests.swift */,
+			);
+			path = GreenwealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE020D32B4E4CF7005937FD /* Greenwealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE020F82B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "Greenwealth" */;
+			buildPhases = (
+				7FE020D02B4E4CF7005937FD /* Sources */,
+				7FE020D12B4E4CF7005937FD /* Frameworks */,
+				7FE020D22B4E4CF7005937FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greenwealth;
+			productName = Greenwealth;
+			productReference = 7FE020D42B4E4CF7005937FD /* Greenwealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FE020E32B4E4CF8005937FD /* GreenwealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE020FB2B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "GreenwealthTests" */;
+			buildPhases = (
+				7FE020E02B4E4CF8005937FD /* Sources */,
+				7FE020E12B4E4CF8005937FD /* Frameworks */,
+				7FE020E22B4E4CF8005937FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE020E62B4E4CF8005937FD /* PBXTargetDependency */,
+			);
+			name = GreenwealthTests;
+			productName = GreenwealthTests;
+			productReference = 7FE020E42B4E4CF8005937FD /* GreenwealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FE020ED2B4E4CF8005937FD /* GreenwealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE020FE2B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "GreenwealthUITests" */;
+			buildPhases = (
+				7FE020EA2B4E4CF8005937FD /* Sources */,
+				7FE020EB2B4E4CF8005937FD /* Frameworks */,
+				7FE020EC2B4E4CF8005937FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE020F02B4E4CF8005937FD /* PBXTargetDependency */,
+			);
+			name = GreenwealthUITests;
+			productName = GreenwealthUITests;
+			productReference = 7FE020EE2B4E4CF8005937FD /* GreenwealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE020CC2B4E4CF7005937FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7FE020D32B4E4CF7005937FD = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7FE020E32B4E4CF8005937FD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7FE020D32B4E4CF7005937FD;
+					};
+					7FE020ED2B4E4CF8005937FD = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7FE020D32B4E4CF7005937FD;
+					};
+				};
+			};
+			buildConfigurationList = 7FE020CF2B4E4CF7005937FD /* Build configuration list for PBXProject "Greenwealth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE020CB2B4E4CF7005937FD;
+			productRefGroup = 7FE020D52B4E4CF7005937FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE020D32B4E4CF7005937FD /* Greenwealth */,
+				7FE020E32B4E4CF8005937FD /* GreenwealthTests */,
+				7FE020ED2B4E4CF8005937FD /* GreenwealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE020D22B4E4CF7005937FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE020DF2B4E4CF7005937FD /* Preview Assets.xcassets in Resources */,
+				7FE020DC2B4E4CF7005937FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020E22B4E4CF8005937FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020EC2B4E4CF8005937FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE020D02B4E4CF7005937FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE020DA2B4E4CF7005937FD /* ContentView.swift in Sources */,
+				7FE020D82B4E4CF7005937FD /* GreenwealthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020E02B4E4CF8005937FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE020E92B4E4CF8005937FD /* GreenwealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE020EA2B4E4CF8005937FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE020F32B4E4CF8005937FD /* GreenwealthUITests.swift in Sources */,
+				7FE020F52B4E4CF8005937FD /* GreenwealthUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE020E62B4E4CF8005937FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE020D32B4E4CF7005937FD /* Greenwealth */;
+			targetProxy = 7FE020E52B4E4CF8005937FD /* PBXContainerItemProxy */;
+		};
+		7FE020F02B4E4CF8005937FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE020D32B4E4CF7005937FD /* Greenwealth */;
+			targetProxy = 7FE020EF2B4E4CF8005937FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FE020F62B4E4CF8005937FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FE020F72B4E4CF8005937FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE020F92B4E4CF8005937FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greenwealth/Preview Content\"";
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.Greenwealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE020FA2B4E4CF8005937FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greenwealth/Preview Content\"";
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.Greenwealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FE020FC2B4E4CF8005937FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.GreenwealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greenwealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Greenwealth";
+			};
+			name = Debug;
+		};
+		7FE020FD2B4E4CF8005937FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.GreenwealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greenwealth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Greenwealth";
+			};
+			name = Release;
+		};
+		7FE020FF2B4E4CF8005937FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.GreenwealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Greenwealth;
+			};
+			name = Debug;
+		};
+		7FE021002B4E4CF8005937FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64L99ZW2ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Greenwealth.GreenwealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Greenwealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE020CF2B4E4CF7005937FD /* Build configuration list for PBXProject "Greenwealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE020F62B4E4CF8005937FD /* Debug */,
+				7FE020F72B4E4CF8005937FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE020F82B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "Greenwealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE020F92B4E4CF8005937FD /* Debug */,
+				7FE020FA2B4E4CF8005937FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE020FB2B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "GreenwealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE020FC2B4E4CF8005937FD /* Debug */,
+				7FE020FD2B4E4CF8005937FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE020FE2B4E4CF8005937FD /* Build configuration list for PBXNativeTarget "GreenwealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE020FF2B4E4CF8005937FD /* Debug */,
+				7FE021002B4E4CF8005937FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE020CC2B4E4CF7005937FD /* Project object */;
+}
