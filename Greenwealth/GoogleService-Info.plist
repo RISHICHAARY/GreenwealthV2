@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBmYsJeTiMVYrtwb6TW-uICzQz5ZxJz60I</string>
+	<string>AIzaSyCdEOSX576TEN3Xxu7wFAQ051KHHAaSkyk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>649850303079</string>
+	<string>664783605847</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>Greenwealth.Greenwealth</string>
 	<key>PROJECT_ID</key>
-	<string>greenwealth-68871</string>
+	<string>greenwealthmainstorage</string>
 	<key>STORAGE_BUCKET</key>
-	<string>greenwealth-68871.appspot.com</string>
+	<string>greenwealthmainstorage.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:649850303079:ios:9c8f44a0c8dade79a35ac2</string>
+	<string>1:664783605847:ios:f8621334c22ce815f61312</string>
 </dict>
 </plist>
